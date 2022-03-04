@@ -18,8 +18,10 @@ namespace SchoolManagementSystem.Models
         public decimal Grade { get; set; }
         public int CourseID { get; set; }
         public int studentId { get; set; }
+        public Nullable<int> LecturerId { get; set; }
     
         public virtual Course Course { get; set; }
         public virtual Student Student { get; set; }
+        public virtual Lecturer Lecturer { get; set; }
     }
 }
