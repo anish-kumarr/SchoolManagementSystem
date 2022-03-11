@@ -11,7 +11,7 @@ using SchoolManagementSystem.Models;
 
 namespace SchoolManagementSystem.Controllers
 {
-    [Authorize]
+    [Authorize(Roles="Teacher")]
     public class StudentsController : Controller
     {
         private SchoolManagementSystem_DB_2Entities db = new SchoolManagementSystem_DB_2Entities();
