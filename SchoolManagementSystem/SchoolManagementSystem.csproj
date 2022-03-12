@@ -230,6 +230,15 @@
     <Content Include="Content\Images\slide_1.png" />
     <Content Include="Content\Images\slide_2.png" />
     <Content Include="Content\Images\slide_3.png" />
+    <Content Include="Content\students.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>students.txt</LastGenOutput>
+    </Content>
+    <Content Include="Content\students.txt">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>students.tt</DependentUpon>
+    </Content>
     <Content Include="Content\themes\base\accordion.css" />
     <Content Include="Content\themes\base\all.css" />
     <Content Include="Content\themes\base\autocomplete.css" />
@@ -302,6 +311,8 @@
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery-ui-1.13.1.js" />
     <Content Include="Scripts\jquery-ui-1.13.1.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
